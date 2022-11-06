@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Grandstander";
+    src: local("Grandstander"),
+    url("fonts/Grandstander-Italic-VariableFont_wght.ttf"),
+         url("fonts/Grandstander-VariableFont_wght.ttf") ,
+  }
+
+.marhey{
+  
+    font-family: "Grandstander";
+    font-weight: 700;  
+}
+
+.noise {
+    /* ... */
+    background:  
+      url(https://grainy-gradients.vercel.app/noise.svg); 
+      background-color:#E9DDc3;
+  }
+
+  .noiseorange {
+    /* ... */
+    background:  
+      url(https://grainy-gradients.vercel.app/noise.svg); 
+      background-color:#EA5F18;
+  }
